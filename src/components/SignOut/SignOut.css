@@ -1,0 +1,30 @@
+.smile1 {
+   position: absolute;
+    width: 91px;
+    animation: smileEmoji1 1s alternate infinite ;
+}
+
+.smile2 {
+    position: absolute;
+    width: 91px;
+    animation: smileEmoji2 1s alternate infinite;
+}
+@keyframes smileEmoji1 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+
+}
+
+@keyframes smileEmoji2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}

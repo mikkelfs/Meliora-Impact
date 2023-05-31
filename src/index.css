@@ -1,0 +1,250 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(#B2D8E4, #D1CCE2, #D3CBE2);
+    font-style: normal;
+  }
+  h1 {
+      color: white;
+  }
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*---------------------------------- *NPO PAGE*  ---------------------------------*/
+
+.npoContent {
+  background-color: #61dafb;
+}
+.routing {
+    text-decoration: none;
+}
+.text-black {
+    color: black;
+}
+.PosAbsolute {
+    position: absolute;
+}
+.npoWhiteLine {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-color: white;
+    height: 1px;
+}
+.goalText {
+    text-align: right;
+}
+.noPadding {
+    padding: 0 0 0 0;
+}
+.paddingRight {
+    padding-left: 30px;
+}
+.npoBGCwhite {
+    background-color: white;
+    left: 0;
+    right: 0;
+}
+.NpoProgressbar {
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.backgroundColorProgressbar{
+    height: 50px;
+    color:black;
+    font-size: 30px;
+
+}
+.backgroundColorProgressbar1{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    color:black;
+    font-size: 30px;
+    text-align: right;
+}
+.npoColorMission {
+    background-color: #0D2E6E;
+    color: white;
+}
+.colorBlack{
+    color: black;
+    margin-top: 20px;
+    text-align: end;
+}
+.BtnStyle {
+    background-color: #0D2E6E;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 1.1rem;
+    font-family: Helvetica;
+}
+.ActiveTitle  {
+    color: #0D2E6E;
+}
+.hover-underline-feedback {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+.hover-underline-feedback:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-feedback:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+.progressBar {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.pictureList {
+    display: flex;
+    padding: 0 4px;
+    flex-wrap: nowrap;
+}
+
+.PictureAlign{
+    flex: 25%;
+    margin: 5px 5px 5px 5px;
+
+}
+.pictureRow{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+.pictureGroup {
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px){
+    .PictureAlign{
+        flex:50%;
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .pictureAlign {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+.successBar{
+    height: 100%;
+    background-color: #1EB185;
+    border-radius: 10px;
+    width: 100%;
+}
+.successText {
+    margin-right: 5px;
+    margin-top: 11px;
+}
+
+.ProjectCards {
+    width: 332px;
+    height: 329px;
+    text-align: left;
+    display:flex;
+    vertical-align: center;
+    border-radius: 6px;
+}
+.projectCardsText {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    height: 90px;
+    max-height: 90px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.projectMarginLeft{
+    margin-left: 15px;
+}
+.projectDuration{
+    opacity: 50%;
+    font-style: oblique;
+    font-size: 15px;
+}
+.projectMargin{
+    margin-top: 30px;
+    color: #0D2E6E;
+}
+.projectMarginTop{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.projectButton{
+    padding-top: 0px;
+    padding-bottom: 1px;
+    padding: 8px;
+    width: 170px;
+    border-radius: 10px;
+    background-color: #0D2E6E;
+    border-color: #0D2E6E;
+}
+.white-hover-underline-feedback {
+  display: inline-block;
+  position: relative;
+  color: white;
+}
+.white-hover-underline-feedback:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+.white-hover-underline-feedback:hover:after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+.active {
+  border-bottom: 2px solid white;
+}
+
+.CPSabsolute {
+    position: absolute;
+}
+.ABtnStyle {
+    padding: 10px 40px 10px 40px;
+    width: 245px;
+    border: 1px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+}

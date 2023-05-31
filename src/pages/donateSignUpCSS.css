@@ -1,0 +1,152 @@
+/* FOR SIGN UP PAGE */
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#companyImg {
+    max-width: 130;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+
+#signIn {
+    margin-top: 25px;
+    color: #0D2E6E;
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+#inputStyle {
+    border-radius: 5px;
+    width: 450px;
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+}
+
+#textStyle {
+  font-family: 'helvetica';
+  font-size: 24;
+}
+
+#loginButton {
+    background-color: #0D2E6E;
+    width: 150px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 22px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+#noAccount {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+#subscribe {
+    background-color: white;
+    width: 350px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* DonationPage */ 
+
+.frame {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    width: 900px;
+    border: solid white 5px;
+    border-radius: 10px;
+    padding: 50px 30px 50px 30px;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+h3 {
+    font-family: 'Roboto';
+}
+
+h2 {
+    font-family: 'Roboto';
+    color: white;
+}
+
+.flexBox1 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    width: 500px;
+}
+
+.checkBox {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.elementInCheckBox {
+    display: flex;
+    padding: 4px;
+    width: 90px;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.newsLetter {
+    padding: 3px;
+    width: 390px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentMethod {
+    margin-left: 260px;
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    height: 130px;
+    justify-content: space-between;
+}
+
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+#vipps {
+    width: 120px;
+    height: 70px;
+}
+
+#visa {
+    width: 120px;
+    height: 70px;
+}
+
+
+#btn {
+    margin-top: 10px;
+    background-color: #0D2E6E;
+    width: 250px;
+}

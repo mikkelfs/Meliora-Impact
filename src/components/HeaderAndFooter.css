@@ -1,0 +1,151 @@
+/*
+HEADER SECTION
+*/
+
+.wholeDiv {
+  margin-bottom: 70px;
+}
+
+#flexBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexForBoot {
+  display: flex;
+}
+
+.flexForBoot2 {
+  margin-top: 20px;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.blackLineBoot {
+  margin-top: 5px;
+  width: 100%;
+  border-top: solid black 1px;
+}
+
+
+
+#container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#App-header {
+  
+  margin: 20px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+}
+
+#company-name {
+  color: white;
+  position: relative;
+  font-size: 30px;
+  left: 20px;
+  top: 0px;
+  height: 90px;
+  font-family: 'Montserrat';
+  border-left: solid black 1px;
+  padding-top: 29px;
+}
+
+#blackLine {
+  position: relative;
+  height: 90px;
+  left: 20px;
+  border-left: solid black 1px;
+}
+
+#logoImg {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+#signInDiv {
+  position: relative;
+  top: 30px;
+  right: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#join {
+  background-color: #0D2E6E;
+  width: 70px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
+
+#sign {
+  width: 75px;
+  height: 40px;
+  font-family: 'Roboto';
+}
+
+#container-2 {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+/*
+FOOTER SECTION
+*/
+
+#footer {
+  margin-top: 70px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#flex {
+  border-top: solid 1px black; 
+  display: flex;
+  justify-content: space-around;
+}
+
+#flex2 {
+  max-width: 290px;
+  min-width: 280px;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'roboto';
+}
+
+#emailInput {
+  width: 200px;
+  height: 30px;
+}
+
+#subscribe-section {
+  margin-top: 5px;
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.socialPic {
+  height: 25px;
+  width: 25px;
+}
